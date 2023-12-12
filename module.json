@@ -1,0 +1,70 @@
+{
+  "id": "jiris-module-of-long-remembrance",
+  "title": "Jiri's Module Of Long Remembrance",
+  "description": "Collection of tricks and doodads Jiri uses",
+  "version": "1.0.0",
+  "authors": [
+    {
+        "name": "gezero",
+        "discord": "gezero#3708"
+    }
+],
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+        {
+            "id": "pf2e",
+            "type": "system",
+            "manifest": "https://raw.githubusercontent.com/foundryvtt/pf2e/master/system.json",
+            "compatibility": {
+                "minimum": "5.10.5"
+            }
+        }
+    ],
+    "requires": [
+        {
+            "id": "lib-wrapper",
+            "type": "module",
+            "manifest": "https://raw.githubusercontent.com/ruipin/fvtt-lib-wrapper/master/module.json"
+        }
+    ]
+},
+  "packs": [
+    {
+      "name": "jiris-tables-of-remembrance",
+      "label": "Jiri's Tables of Remembrance",
+      "path": "packs/jiris-tables-of-remembrance",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    },
+	{
+      "label": "Jiri's Notes",
+      "type": "JournalEntry",
+      "name": "jiris-notes",
+      "path": "packs/jiris-notes",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+      {
+          "name": "Jiri's remembrance",
+          "sorting": "m",
+          "packs": [
+              "jiris-notes",
+              "jiris-tables-of-remembrance"
+          ]
+      }
+  ]
+}

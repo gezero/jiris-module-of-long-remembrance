@@ -1,0 +1,8 @@
+2023/12/12-09:43:36.446 3d10 Recovering log #92
+2023/12/12-09:43:36.452 3d10 Delete type=0 #92
+2023/12/12-09:43:36.452 3d10 Delete type=3 #90
+2023/12/12-09:44:18.891 83d0 Level-0 table #97: started
+2023/12/12-09:44:18.891 83d0 Level-0 table #97: 0 bytes OK
+2023/12/12-09:44:18.893 83d0 Delete type=0 #95
+2023/12/12-09:44:18.896 83d0 Manual compaction at level-0 from '!journal!Av5K4aCktSfYUgme' @ 72057594037927935 : 1 .. '!journal.pages!Av5K4aCktSfYUgme.dfAjf84TNlKVG5Sr' @ 0 : 0; will stop at (end)
+2023/12/12-09:44:18.896 83d0 Manual compaction at level-1 from '!journal!Av5K4aCktSfYUgme' @ 72057594037927935 : 1 .. '!journal.pages!Av5K4aCktSfYUgme.dfAjf84TNlKVG5Sr' @ 0 : 0; will stop at (end)
